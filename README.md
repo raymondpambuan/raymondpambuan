@@ -16,7 +16,7 @@ This file contains the basic instructions on how to setup for success for the AP
 ### Setup working environment
 - This section assumes that you are using the preffered softwares (Visual Studio Code and Bruno)
 1. Open VS Code and install the "SQLite Explorer" extension.
-2. Create a virtual environment with Python using `python -m venv venv` from the corresponding terminal of your OS (Windows - Powershell, MacOS/Linux - Terminal).
+2. Create a virtual environment with Python by entering `python -m venv venv` using the corresponding terminal of your OS (Windows - Powershell, MacOS/Linux - Terminal).
 3. Activate the virtual environment using `./venv/Scripts/activate` (Windows) or `source venv/bin/activate` (MacOS/Linux).
     - For Windows: If you are receiving an error containing "cannot be loaded because running scripts is disabled on this system," enter `Set-ExecutionPolicy Unrestricted -Scope Process` first.
 5. Install FastAPI module in Python using `pip install "fastapi[standard]"`
